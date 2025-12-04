@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "nombre": "Banco de Alimentos de Madrid",
+    "localidad": "Fuencarral-El Pardo, Madrid",
+    "direccion": "C. de la Costa Brava 6, Madrid",
+    "lat": 40.4975,
+    "lng": -3.6904
+  },
+  {
+    "id": 2,
+    "nombre": "FESBAL - Federación Española de Bancos de Alimentos",
+    "localidad": "Madrid",
+    "direccion": "Av. de Burgos 12, Madrid",
+    "lat": 40.4877,
+    "lng": -3.6764
+  },
+  {
+    "id": 3,
+    "nombre": "Banco de Alimentos Medina Azahara",
+    "localidad": "Córdoba",
+    "direccion": "Polígono Industrial La Torrecilla, Córdoba",
+    "lat": 37.8576,
+    "lng": -4.7601
+  },
+  {
+    "id": 4,
+    "nombre": "Banco de Alimentos de Valencia",
+    "localidad": "La Pobla de Vallbona, Valencia",
+    "direccion": "Carrer Ronda Est, La Pobla de Vallbona",
+    "lat": 39.5907,
+    "lng": -0.5527
+  },
+  {
+    "id": 5,
+    "nombre": "Banco de Alimentos de Zaragoza",
+    "localidad": "Mercazaragoza, Zaragoza",
+    "direccion": "C. Mercazaragoza, Zaragoza",
+    "lat": 41.6634,
+    "lng": -0.8771
+  },
+  {
+    "id": 6,
+    "nombre": "Banco de los Alimentos de Barcelona",
+    "localidad": "Sants-Montjuïc, Barcelona",
+    "direccion": "C. Motors 151, Barcelona",
+    "lat": 41.3566,
+    "lng": 2.1287
+  },
+  {
+    "id": 7,
+    "nombre": "Banco de Alimentos de La Rioja",
+    "localidad": "Logroño, La Rioja",
+    "direccion": "C. Barrera 17, Logroño",
+    "lat": 42.4628,
+    "lng": -2.4454
+  },
+  {
+    "id": 8,
+    "nombre": "Banco de Alimentos Madrid Alcorcón",
+    "localidad": "Alcorcón, Madrid",
+    "direccion": "C. Porto Cristo 5, Alcorcón",
+    "lat": 40.3500,
+    "lng": -3.8254
+  }
+]

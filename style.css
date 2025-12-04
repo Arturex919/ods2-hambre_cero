@@ -1,0 +1,124 @@
+/* Variables y Estilos Generales basados en el ODS 2 (Amarillo/Oro) */
+:root {
+    --ods-gold: #E8B33F; /* Color principal oficial del ODS 2 */
+    --ods-dark: #383838; /* Color oscuro para texto y fondo de footer */
+    --ods-light-bg: #fff8e8; /* Fondo muy claro, crema/amarillo pálido */
+    --font-family: 'Inter', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: #f8f9fa;
+    scroll-behavior: smooth;
+}
+
+/* Estilo para el Navbar */
+.navbar-custom {
+    background-color: var(--ods-gold) !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+.navbar-custom .nav-link, .navbar-custom .navbar-brand {
+    color: white !important;
+    font-weight: 600;
+}
+.navbar-custom .nav-link:hover {
+    color: var(--ods-dark) !important;
+}
+
+/* Estilo para el Hero Section */
+#inicio {
+    /* La URL de la imagen de fondo debe ser accesible */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Overlay oscuro */
+    url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1920&auto=format&fit=crop') no-repeat center center / cover;
+    background-attachment: fixed; /* Efecto Parallax */
+    padding: 10rem 0 6rem; /* Más padding para que el contenido respire */
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto más fuerte */
+    position: relative; /* Necesario para el overlay */
+    display: flex; /* Centrar el contenido verticalmente */
+    align-items: center;
+    min-height: 100vh; /* Para que ocupe al menos toda la altura de la vista */
+}
+#inicio .container {
+    z-index: 2; /* Asegurar que el contenido esté sobre el overlay */
+}
+/* Eliminar la imagen img del inicio, si estaba allí */
+#inicio img {
+    display: none;
+}
+
+/* ESTILO DEL BOTÓN ACTUALIZADO: AHORA SÍ ES OPACADO Y DORADO */
+.btn-ods-primary {
+    background-color: var(--ods-gold); /* Fondo Dorado/Amarillo */
+    border-color: var(--ods-gold);
+    color: white; /* Texto blanco para destacar sobre el dorado */
+    transition: all 0.3s ease;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+}
+.btn-ods-primary:hover {
+    background-color: var(--ods-dark); /* Hover Oscuro */
+    border-color: white; /* Borde Blanco */
+    color: white; /* Texto Blanco en hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos de Sección (Mezclando estilos) */
+.section-title {
+    border-left: 5px solid var(--ods-gold);
+    padding-left: 15px;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    color: var(--ods-dark);
+    font-size: 2.5rem;
+}
+
+/* Estilo para las Cards de Objetivos */
+.card-objective {
+    border-left: 5px solid var(--ods-gold);
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    background-color: white;
+}
+
+.card-objective:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el Accordion de Problemas */
+.accordion-button {
+    background-color: var(--ods-light-bg) !important;
+    color: var(--ods-dark) !important;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    border-top: 1px solid var(--ods-gold);
+}
+.accordion-item {
+    border: none;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Footer */
+footer {
+    background-color: var(--ods-dark);
+    color: white;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+/* Estilo para el contenido del modal */
+.modal-header {
+    background-color: var(--ods-gold);
+    color: white;
+    border-bottom: none;
+}
+.modal-title {
+    font-weight: bold;
+}
